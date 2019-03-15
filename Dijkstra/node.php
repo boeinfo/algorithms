@@ -2,9 +2,10 @@
 
 class Node
 {
-
+	/** @var string */
 	private $item;
-
+	
+	/** @var Node */
 	private $next;
 
 	publict function __construct(string $item, ?Node $next = null)
